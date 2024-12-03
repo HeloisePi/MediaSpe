@@ -1,0 +1,55 @@
+@import url('variables.css');
+
+* {
+    font-family: var(--app-text-font) !important;
+    font-size: var(--app-font-size);
+    color: var(--app-black-500);
+    line-height: normal;
+}
+
+body {
+    background: linear-gradient(to bottom left, var(--app-primary-100), var(--app-white-300), var(--app-primary-100));
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+label {
+    font-size: 0.9rem !important;
+    font-weight: 400;
+    color: var(--app-grey-500);
+}
+
+input {
+    display: block;
+    height: 2.5rem;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.9rem !important;
+    border: 1px solid var(--app-grey-500);
+    border-radius: var(--spacing-m);
+}
+
+input:focus {
+    outline: solid 2px var(--app-primary-200);
+    transition: all 0.25s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.5rem;
+    z-index: 0;
+}
+
